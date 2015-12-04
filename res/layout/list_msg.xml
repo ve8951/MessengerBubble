@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LLMsgInput" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/LLMsgInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#096464"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <EditText
+            android:id="@+id/EDMsgInput"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="@string/msg"
+            android:imeOptions="flagNoExtractUi" >
+        </EditText>
+
+        <Button
+            android:id="@+id/BTSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+             android:layout_marginRight="5dip"
+            android:layout_weight="2"
+            android:textColor="@android:color/black"
+            android:text="Send" />
+    </LinearLayout>
+
+</RelativeLayout>

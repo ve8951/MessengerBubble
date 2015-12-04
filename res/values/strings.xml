@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ACTMessenger!</string>
+    <string name="app_name">MessengerBubble</string>
+    <string name="msg">Chat</string>
+    <color name="Dark_Gray">#3C3B3B</color>
+    <color name="Light_Gray">#D4D4D4</color>
+
+</resources>
